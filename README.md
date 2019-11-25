@@ -13,11 +13,11 @@ Multiclass classification in cancer diagnostics, using DNA or Gene Expression Si
 https://www.mdpi.com/2078-2489/9/12/317/htm
 
 ## Example usage
- from sklearn import datasets
- iris = datasets.load_iris()
- x = iris.data
- y = iris.target
- licic = LICIC()
- x,y = licic.fit_sample(x,y)
- print(x)
- print(y)
+`from sklearn import datasets`
+`iris = datasets.load_iris()` 
+`x = iris.data`
+ `y = iris.target`
+ `licic = LICIC()`
+ `x,y = licic.fit_sample(x,y)`
+ `print(x)`
+ `print(y)`
